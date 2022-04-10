@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 공부일지
+title: 배운 것 꼭 기록하기
 email: jmkim648@gmail.com
 author: 김재민
 
@@ -157,7 +157,7 @@ yat:
 defaults:
   home:
     heading: "What I learned today?"
-    subheading: "당신은 갑자기 책상 정리가 하고 싶어집니다. 방 청소도 하고 싶어집니다...<br>이제 정말 공부해야지!"
+    subheading: "당신은 갑자기 책상 정리가 하고 싶어집니다. 방 청소도 하고 싶어집니다...이제 정말 공부해야지!"
     banner: "Your image url"
 
 # Banner default settings
