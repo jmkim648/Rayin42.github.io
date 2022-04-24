@@ -25,3 +25,4 @@ git -c diff.mnemonicprefix=false -c core.quotepath=false --no-optional-locks pus
 
 1. 깃허브 프로필 -> Settings -> Developer Settings -> Personal access tokens에서 발급할 수 있다. 권한은 repo만 주거나 repo, user에만 줘도 무관한 듯.
 2. 기존 Password방식을 사용했던 경우, C:\Users\{사용자명}\AppData\Local\Atlassian\SourceTree 경로에 있는 passwd 파일을 삭제해주어야 한다.(기존 저장되어 있던 pw)
+
