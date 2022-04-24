@@ -54,7 +54,7 @@ tags: [python]
               - student_loan_interest)
 
     
-    #이후 추가...
+    #이후 추가...  
    ```
  - Tab보다는 Space 4개를 활용(특히 섞어 쓰지 말 것!)
  - 함수와 클래스는 빈 줄 두개로 구분
