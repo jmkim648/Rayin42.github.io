@@ -87,12 +87,10 @@ tags: [django]
  ]
  ```
  
+![html1](./_img/template-html1.JPG)
 위의 index.html에서
-```html
-<a href={% url 'app1:app' %}>링크</a>
-```
+![html2](./_img/template-html2.JPG)
 이 구문과 같이 지정하면 app명을 판정하여 링크를 만들어 app 간의 이름 충돌을 방지할 수 있다.
-
 
  ---
  ### 추가 공부 필요
