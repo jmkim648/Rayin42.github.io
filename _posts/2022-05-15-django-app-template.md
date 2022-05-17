@@ -86,4 +86,29 @@ tags: [django]
     path('app/', v.ApplicaionView.as_view(), name='app'), #추가된 부분
  ]
  ```
+ ```python
+ # app1/templates/index.html
+ #{% load static %}  # 상기된 static 경로도 적용되어 있다
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+       <link href="{% static 'app1/main.css' %}" rel="stylesheet">
+   </head>
+   <body>
+     <h1>Hello App1!</h1>
+     <a href={% url 'app1:app' %}>링크</a>
+   </body>
+ ```
+위의 index.html에서
+```python
+<a href={% url 'app1:app' %}>링크</a>
+```
+이 구문과 같이 지정하면 app명을 판정하여 링크를 만들어 app 간의 이름 충돌을 방지할 수 있다.
+
+
+ ---
+ ### 추가 공부 필요
+ - Deployment 시 collectstatic을 실행 ~~
+ - app/urls의 view 함수 중 ~~~.as_view()의 의미
+ - url 전반적..
  
