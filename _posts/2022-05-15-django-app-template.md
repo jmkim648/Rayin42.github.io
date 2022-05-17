@@ -86,19 +86,7 @@ tags: [django]
     path('app/', v.ApplicaionView.as_view(), name='app'), #추가된 부분
  ]
  ```
- ```python
- # app1/templates/index.html
  
- <!DOCTYPE html>
- <html lang="en">
-   <head>
-       <link href="{% static 'app1/main.css' %}" rel="stylesheet">
-   </head>
-   <body>
-     <h1>Hello App1!</h1>
-     <a href={% url 'app1:app' %}>링크</a>
-   </body>
- ```
 위의 index.html에서
 ```python
 <a href={% url 'app1:app' %}>링크</a>
