@@ -88,7 +88,7 @@ tags: [django]
  ```
  ```python
  # app1/templates/index.html
- #{% load static %}  # 상기된 static 경로도 적용되어 있다
+ {% lod static %}  # 상기된 static 경로도 적용되어 있다
  <!DOCTYPE html>
  <html lang="en">
    <head>
