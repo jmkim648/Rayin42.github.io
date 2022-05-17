@@ -87,7 +87,10 @@ tags: [django]
  ]
  ```
  
-
+위의 index.html에서
+```html
+<a href={% url 'app1:app' %}>링크</a>
+```
 이 구문과 같이 지정하면 app명을 판정하여 링크를 만들어 app 간의 이름 충돌을 방지할 수 있다.
 
 
