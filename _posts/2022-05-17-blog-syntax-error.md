@@ -13,4 +13,4 @@ tags: [blog, html]
 Liquid Exception: Liquid syntax error (line 84): Unknown tag 'url' in /github/workspace/_posts/2022-05-15-django-app-template.md
 Liquid Exception: Liquid syntax error (line 83): Unknown tag 'static' in /github/workspace/_posts/2022-05-15-django-app-template.md
 ```
-3. 에러가 발생한 지점은 ![html1](./_img/template-html1.JPG)과 ![html2](./_img/template-html2.JPG) 부근으로, 코드블럭 내의 html 구문이 문제인 것으로 추정되어 img파일로 교체해뒀다.
+3. 에러가 발생한 지점은 15일에 작성한 'Django로 여러 앱을 구축할 때' 문서의 ![html1](./img/template-html1.JPG)과 ![html2](./img/template-html2.JPG) 부근으로, 코드블럭 내의 html 구문이 문제인 것으로 추정되어 img파일로 교체해뒀다.
