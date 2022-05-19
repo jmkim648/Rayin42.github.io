@@ -30,7 +30,7 @@ https://www.google.com:443/search?q=hello&hl=ko
 
 #### scheme
  - 주로 프로토콜 사용
- - 프로톸콜: 어떤 방식으로 자원에 접근할 것인가 정하는 약속 규칙
+ - 프로토콜: 어떤 방식으로 자원에 접근할 것인가 정하는 약속 규칙
  - ex) http, https, ftp 등
  - http는 80포트, https(HTTP Secure)는 443포트를 주로 사용(포트는 생략 가능)
 
@@ -58,7 +58,7 @@ https://www.google.com:443/search?q=hello&hl=ko
  - ?로 시작하며 &로 추가 가능 ?keyA=valueA&keyB=valueB
  - 보통 query parameter, query string 등으로 불림 (웹서버에 제공하는 파라미터, 문자 형태기 때문에)
 
- ### fragment
+### fragment
  https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started-introducing-spring-boot
 
  윗 부분중 #getting-started-introducing-spring-boot
@@ -76,7 +76,7 @@ TCP/IP 패킷에 하단과 같은 HTTP 메시지를 포함해 전달
 
  요청 패킷이 구글 서버에 도착하면 구글 서버에서 하단과 같은 응답 메시지를 만들어 사용자에게 전달
 
- - HTTP 응답 메시지 형태
+ - HTTP 응답 메시지 형태 
  ```
  HTTP/1.1 200 OK
  Content-Type: text/html;charset=UTF-8
@@ -85,4 +85,5 @@ TCP/IP 패킷에 하단과 같은 HTTP 메시지를 포함해 전달
   <body>...</body>
  </html>
  ```
+
  응답 메시지가 도착하면 사용자의 웹브라우저에서 HTML 렌더링
