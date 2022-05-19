@@ -59,8 +59,9 @@ https://www.google.com:443/search?q=hello&hl=ko
  - 보통 query parameter, query string 등으로 불림 (웹서버에 제공하는 파라미터, 문자 형태기 때문에)
 
 ### fragment
- https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started-introducing-spring-boot
-
+```
+https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started-introducing-spring-boot
+```
  윗 부분중 #getting-started-introducing-spring-boot
   - html 내부 북마크 등에 사용하며 서버에 전송하는 정보는 아님, 자주 사용하지 않음
 
@@ -76,7 +77,7 @@ TCP/IP 패킷에 하단과 같은 HTTP 메시지를 포함해 전달
 
  요청 패킷이 구글 서버에 도착하면 구글 서버에서 하단과 같은 응답 메시지를 만들어 사용자에게 전달
 
- - HTTP 응답 메시지 형태 
+ - HTTP 응답 메시지 형태
  ```
  HTTP/1.1 200 OK
  Content-Type: text/html;charset=UTF-8
@@ -85,5 +86,5 @@ TCP/IP 패킷에 하단과 같은 HTTP 메시지를 포함해 전달
   <body>...</body>
  </html>
  ```
-
  응답 메시지가 도착하면 사용자의 웹브라우저에서 HTML 렌더링
+ 
