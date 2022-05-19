@@ -77,14 +77,6 @@ TCP/IP 패킷에 하단과 같은 HTTP 메시지를 포함해 전달
 
  요청 패킷이 구글 서버에 도착하면 구글 서버에서 하단과 같은 응답 메시지를 만들어 사용자에게 전달
 
- - HTTP 응답 메시지 형태
- ```
- HTTP/1.1 200 OK
- Content-Type: text/html;charset=UTF-8
- Content-Length: 3423
- <html>
-  <body>...</body>
- </html>
- ```
+ - HTTP 응답 메시지 형태 (코드블럭이 오류나서 이미지로 대체)
+ ![http-response](/img/http-response.JPG)
  응답 메시지가 도착하면 사용자의 웹브라우저에서 HTML 렌더링
- 
