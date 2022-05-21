@@ -2,8 +2,8 @@
 layout: post
 title: Django superuser 생성 시 no such table에러
 subtitle: 
-categories: python
-tags: [python, pip]
+categories: django
+tags: [django]
 ---
 
 ### 현상
