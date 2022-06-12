@@ -1,9 +1,9 @@
 ---
 layout: post
-title: html 공부 정리 - 1. 인터넷 네트워크
+title: http 공부 정리 - 1. 인터넷 네트워크
 subtitle: 
-categories: html
-tags: [html, study]
+categories: http
+tags: [http, study]
 ---
 
 ### Ip protocol
@@ -56,3 +56,7 @@ User Datagram Protocol (TCP와 같은 계층)
  Domain Name System : IP는 기억하기도 어렵고, 변경될 수 있기 때문에 도메인 네임이 필요
   - 전화번호부와 같은 역할, 도메인 명을 등록 후 그것을 IP주소로 변환
   - 클라이언트가 서버와 통신하기 전에 DNS 서버와 먼저 통신, 도메인에 할당된 IP를 받아 서버로 연결
+
+-----------
+# 참고
+[인프런 강의 모든 개발자를 위한 HTTP 웹 기본 지식](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/)

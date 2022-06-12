@@ -2,8 +2,8 @@
 layout: post
 title: http 공부 정리 - 3. HTTP 기본
 subtitle: 
-categories: html
-tags: [html, study]
+categories: http
+tags: [http, study]
 ---
 
 ## HTTP

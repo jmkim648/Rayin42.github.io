@@ -1,9 +1,9 @@
 ---
 layout: post
-title: html 공부 정리 - 2. URI&웹브라우저 흐름
+title: http 공부 정리 - 2. URI&웹브라우저 흐름
 subtitle: 
-categories: html
-tags: [html, study]
+categories: http
+tags: [http, study]
 ---
 
 ### URI(Uniform Resource Identifier)
