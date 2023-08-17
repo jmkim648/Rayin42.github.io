@@ -86,7 +86,18 @@ tags: [django]
     path('app/', v.ApplicaionView.as_view(), name='app'), #추가된 부분
  ]
  ```
- 
+ ```html
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="{% static 'app1/main.css' %}" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Hello App1!</h1>
+    <a href={% url 'app1:app' %}링크</a>
+  </body>
+```
 ![html1](/img/template-html1.JPG)
 위의 index.html에서
 ![html2](/img/template-html2.JPG)
